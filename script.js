@@ -2,9 +2,9 @@ const secretWordsData = [
   {
     word: "electro",
     images: [
-      "file:///C:/Users/MomVV/Desktop/Website/Images/Electro.jpg",
-      "file:///C:/Users/MomVV/Desktop/Website/Images/johnW.jpg",
-      "file:///C:/Users/MomVV/Desktop/Website/Images/ElectroMoves.jpg"
+      "Images/Electro.jpg",
+      "Images/johnW.jpg",
+      "Images/ElectroMoves.jpg"
     ],
     texts: [
       "Bro"
@@ -13,9 +13,9 @@ const secretWordsData = [
   {
     word: "eruptor&blizzard",
     images: [
-      "file:///C:/Users/MomVV/Desktop/Website/Images/E&B.jpg",
-      "file:///C:/Users/MomVV/Desktop/Website/Images/E&BMoves.jpg",
-      "file:///C:/Users/MomVV/Desktop/Website/Images/Obsidian.jpg"
+      "Images/E&B.jpg",
+      "Images/E&BMoves.jpg",
+      "Images/Obsidian.jpg"
     ],
     texts: [
       "They need cookies"
