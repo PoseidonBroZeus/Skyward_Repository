@@ -6,7 +6,7 @@ const secretWordsData = [
       "Images/johnW.jpg",
       "Images/ElectroMoves.jpg"
     ],
-    textFile: "Text/Electro.txt"
+    texts: "Text/Electro.txt"
   },
   {
     word: "eruptor&blizzard",
@@ -15,7 +15,7 @@ const secretWordsData = [
       "Images/E&BMoves.jpg",
       "Images/Obsidian.jpg"
     ],
-    textFile: "Text/eruptor_blizzard.txt"
+    texts: "Text/eruptor_blizzard.txt"
   },
   // Add more secret words and catalogs as needed
 ];
