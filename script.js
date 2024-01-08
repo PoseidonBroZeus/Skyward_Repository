@@ -34,6 +34,21 @@ const catalogs = document.getElementById("catalogs");
 async function checkInput() {
   const userInputLowerCase = userInput.value.toLowerCase();
   const correctWordData = secretWordsData.find(data => data.word === userInputLowerCase);
+  //NEW SHIT
+  
+function returnHome() {
+  inputScreen.style.display = "block";
+  catalogs.style.display = "none";
+}
+
+function displayCatalogs(wordData) {
+  const imageCatalog = document.getElementById("image-catalog");
+  const textCatalog = document.getElementById("text-catalog");
+
+  imageCatalog.innerHTML = wordData.images.map(image => `<img src='${image}' alt='Image'>`).join('');
+  textCatalog.innerHTML = wordData.texts.map(text => `<p>${text}</p>`).join('');
+}
+  //END OF NEW SHIT
 
   if (correctWordData) {
     inputScreen.style.display = "none";
