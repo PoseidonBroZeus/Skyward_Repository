@@ -20,6 +20,10 @@ const secretWordsData = [
   // Add more secret words and catalogs as needed
 ];
 
+function returnHome() {
+  inputScreen.style.display = "block";
+  catalogs.style.display = "none";
+}
 // Load text content dynamically
 async function loadTextContent(file) {
   const response = await fetch(file);
@@ -35,11 +39,7 @@ async function checkInput() {
   const userInputLowerCase = userInput.value.toLowerCase();
   const correctWordData = secretWordsData.find(data => data.word === userInputLowerCase);
   //NEW SHIT
-  
-function returnHome() {
-  inputScreen.style.display = "block";
-  catalogs.style.display = "none";
-}
+
 
 function displayCatalogs(wordData) {
   const imageCatalog = document.getElementById("image-catalog");
