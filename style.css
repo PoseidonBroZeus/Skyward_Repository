@@ -42,6 +42,7 @@ body {
   }
   
   #text-container {
+     background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
     flex: 1;
     padding: 10px;
     overflow-y: auto; /* Add a vertical scrollbar if the content overflows */
