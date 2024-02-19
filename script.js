@@ -123,16 +123,6 @@ const secretWordsData = [
     textFile: "Text/Owlda Lin.txt"
   },
 
-  {
-    word: "owlda_lin",
-    images: [
-      "Images/Owlda Lin.jpg",
-      "Images/Owlda Lin nohat.jpg"
-
-
-    ],
-    textFile: "Text/Owlda Lin.txt"
-  },
 
   {
     word: "markus_snowither",
@@ -292,7 +282,8 @@ const secretWordsData = [
     word: "jettpak",
     images: [
       "Images/Jettpak shades.jpg",
-      "Images/Jettpak.jpg"
+      "Images/Jettpak.jpg",
+      "Images/Jettpak_Photo.jpg"
 
 
     ],
